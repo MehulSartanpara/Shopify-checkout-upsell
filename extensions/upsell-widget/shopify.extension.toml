@@ -43,9 +43,27 @@ api_access = true
 # your extension. Learn more:
 # https://shopify.dev/docs/api/checkout-ui-extensions/unstable/configuration#settings-definition
 
-# [extensions.settings]
-# [[extensions.settings.fields]]
-# key = "banner_title"
-# type = "single_line_text_field"
-# name = "Banner title"
-# description = "Enter a title for the banner"
+[extensions.settings]
+[[extensions.settings.fields]]
+key = "banner_title"
+type = "single_line_text_field"
+name = "Title for Section"
+description = "Enter the title for this section"
+
+[[extensions.settings.fields]]
+key = "collection_handle"
+type = "single_line_text_field"
+name = "Collection Handle"
+description = "Enter the handle of the collection to display products (e.g., best-sellers or new-products)"
+
+[[extensions.settings.fields]]
+key = "product_limit"
+type = "number_integer"
+name = "Product Limit"
+description = "Specify the maximum number of products to be displayed (e.g., 8, 9, 15)"
+
+[[extensions.settings.fields]]
+key = "button_label"
+type = "single_line_text_field"
+name = "Button Label"
+description = "Enter the label for the button"

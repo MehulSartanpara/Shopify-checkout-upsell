@@ -2,7 +2,7 @@
 
 client_id = "e922575435df8686b4eac1c8da18cad7"
 name = "checkout-upsell"
-application_url = "https://mario-leg-fourth-thus.trycloudflare.com"
+application_url = "https://bits-coupon-accurate-radiation.trycloudflare.com"
 embedded = true
 
 [build]
@@ -16,9 +16,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://mario-leg-fourth-thus.trycloudflare.com/auth/callback",
-  "https://mario-leg-fourth-thus.trycloudflare.com/auth/shopify/callback",
-  "https://mario-leg-fourth-thus.trycloudflare.com/api/auth/callback"
+  "https://bits-coupon-accurate-radiation.trycloudflare.com/auth/callback",
+  "https://bits-coupon-accurate-radiation.trycloudflare.com/auth/shopify/callback",
+  "https://bits-coupon-accurate-radiation.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
